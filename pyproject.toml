@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ai-soc-for-banking"
+version = "0.1.0"
+description = "AI-Powered SOC framework for banking — SIEM-lite, ML detection, IR playbooks, SOAR orchestration, GRC compliance, and Streamlit dashboard"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]

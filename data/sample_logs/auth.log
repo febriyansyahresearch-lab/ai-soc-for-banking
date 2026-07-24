@@ -1,0 +1,17 @@
+Jul 25 08:00:01 server01 sshd[1234]: Accepted password for admin from 192.168.1.100 port 22
+Jul 25 08:01:15 server01 sshd[1235]: Failed password for root from 45.33.32.156 port 22
+Jul 25 08:01:17 server01 sshd[1236]: Failed password for root from 45.33.32.156 port 22
+Jul 25 08:01:19 server01 sshd[1237]: Failed password for root from 45.33.32.156 port 22
+Jul 25 08:02:00 server01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/su
+Jul 25 08:02:30 server01 sshd[1240]: Accepted password for analyst from 10.0.0.15 port 22
+Jul 25 08:03:00 server01 sshd[1241]: Failed password for admin from 185.220.101.42 port 22
+Jul 25 08:03:05 server01 sshd[1242]: Failed password for admin from 185.220.101.42 port 22
+Jul 25 08:03:10 server01 sshd[1243]: Failed password for admin from 185.220.101.42 port 22
+Jul 25 08:04:00 server01 sudo: analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/less /etc/shadow
+Jul 25 08:04:30 server01 sudo: analyst : command not authorized ; USER=root ; COMMAND=/usr/bin/passwd
+Jul 25 08:05:00 server01 sshd[1250]: Accepted password for auditor from 10.0.0.30 port 22
+Jul 25 08:06:00 server01 sshd[1251]: Failed password for oracle from 91.121.87.34 port 22
+Jul 25 08:06:30 server01 sshd[1252]: Failed password for oracle from 91.121.87.34 port 22
+Jul 25 08:07:00 server01 sshd[1253]: Failed password for oracle from 91.121.87.34 port 22
+Jul 25 08:08:00 server01 sshd[1254]: Failed password for oracle from 91.121.87.34 port 22
+Jul 25 08:08:30 server01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
