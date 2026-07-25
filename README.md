@@ -84,6 +84,28 @@ python -m pytest tests/ -v
 streamlit run src/dashboard/app.py
 ```
 
+### Dashboard Preview
+
+| View | What it shows |
+|---|---|
+| SOC Overview | Event volume, alert severity, open incidents, and response status |
+| Detection | Rule matches, anomaly scores, and correlated incident chains |
+| Incident Response | NIST-aligned playbook steps and SOAR execution logs |
+| Compliance | NIST CSF, ISO 27001, PCI DSS, and BI/POJK control coverage |
+
+## Quick Demo
+
+```bash
+python -m pytest tests/ -q
+streamlit run src/dashboard/app.py
+```
+
+Example validation output:
+
+```text
+68 passed
+```
+
 ## References
 
 - NIST SP 800-61 Rev 2 — Computer Security Incident Handling Guide
